@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Hero = () => {
     return (
-        <section className="relative bg-gray-400 text-white p-2">
+        <section className="relative text-white p-2">
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
                 <div className="relative py-16 md:py-24">
                     {/* Decorative SVG */}
@@ -23,8 +23,8 @@ const Hero = () => {
                     
                     {/* Content */}
                     <div className="relative text-center">
-                        <h1 className="text-[35px] font-extrabold tracking-tight sm:text-5xl">
-                            Welcome to Elegant Finds Shop
+                        <h1 className="text-[35px] text-blue-900 font-extrabold tracking-tight sm:text-5xl">
+                            Welcome to Fatimas Wear
                         </h1>
                         <p className="mt-6 text-xl max-w-3xl mx-auto text-black">
                         Discover a world of style, sophistication, and cutting-edge technology at Elegant Find Shop. We bring you an exclusive collection of:
@@ -37,7 +37,7 @@ At Elegant Find Shop, we are committed to quality and elegance, curating product
                         <div className="mt-8">
                             <Link
                                 href="/products"
-                                className="inline-block bg-gray-900 text-white py-2 px-6 rounded-md font-medium hover:bg-gray-800"
+                                className="inline-block bg-blue-900 text-white py-2 px-6 rounded-md font-medium hover:bg-gray-800"
                             >
                                 Shop Now
                             </Link>

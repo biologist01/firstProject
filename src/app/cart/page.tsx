@@ -66,9 +66,9 @@ const Cart = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gray-400 py-12 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
-                <h1 className="text-4xl font-bold text-white mb-8 md:text-left text-center">Your Shopping Cart</h1>
+                <h1 className="text-4xl font-bold text-blue-900 mb-8 md:text-left text-center">Your Shopping Cart</h1>
                 {cart.length === 0 ? (<>
                     <div className="text-center text-xl text-black">Your cart is empty add something.</div>
                     <div className='flex justify-center w-100 mt-8'>
@@ -126,7 +126,7 @@ const Cart = () => {
                         <div className="flex justify-center md:justify-end mt-6">
                             <button
                                 onClick={() => setIsModalOpen(true)}
-                                className="bg-gray-900 text-white py-3 px-8 rounded-lg text-lg font-medium hover:bg-gray-800"
+                                className="bg-blue-900 text-white py-3 px-8 rounded-lg text-lg font-medium hover:bg-blue-800"
                             >
                                 Checkout
                             </button>

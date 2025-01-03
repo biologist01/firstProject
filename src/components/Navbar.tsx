@@ -6,7 +6,7 @@ const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-slate-900 shadow-md text-white">
+        <nav className="bg-blue-900 shadow-md text-white">
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
                 <div className="relative flex items-center justify-between h-16">
                     <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
@@ -30,7 +30,7 @@ const Navbar = () => {
                     <div className="flex-1 flex items-center justify-between sm:items-stretch sm:justify-start">
                         <div className="flex-shrink-0">
                             <Link href="/">
-                                <span className="text-2xl font-bold text-white cursor-pointer">Elegant Finds Shop</span>
+                                <span className="text-2xl font-bold text-white cursor-pointer">Fatima's wear</span>
                             </Link>
                         </div>
                     </div>

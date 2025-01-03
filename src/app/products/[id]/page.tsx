@@ -57,14 +57,14 @@ const SingleProduct = () => {
     };
 
     return (
-        <div className="bg-gray-400 min-h-screen py-12">
+        <div className=" min-h-screen py-12">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {!data ? (
                     <div className="text-center">
                         <p>Loading Data...</p>
                     </div>
                 ) : (
-                    <div className="bg-gray-400 p-8 rounded-lg shadow-lg flex flex-col md:flex-row">
+                    <div className=" p-8 rounded-lg shadow-lg flex flex-col md:flex-row">
                         {/* Product Image */}
                         <div className="md:w-1/2 mb-8 md:mb-0 flex justify-center">
                             <Image
@@ -78,7 +78,7 @@ const SingleProduct = () => {
 
                         {/* Product Details */}
                         <div className="md:w-1/2 md:pl-8">
-                            <h1 className="text-4xl font-bold text-gray-900 mb-4">{data.title}</h1>
+                            <h1 className="text-4xl font-bold text-blue-900 mb-4">{data.title}</h1>
                             <p className="text-xl text-gray-700 mb-6">{data.description}</p>
                             <p className="text-2xl text-white font-bold mb-4">${data.price}</p>
                             <p className="text-lg text-gray-900 mb-4">
@@ -91,7 +91,7 @@ const SingleProduct = () => {
                             {/* Add to Cart Button */}
                             <button
                                 onClick={handleAddToCart} // Add the product to localStorage
-                                className="bg-gray-900 text-white py-3 px-6 rounded-md hover:bg-gary-800"
+                                className="bg-blue-900 text-white py-3 px-6 rounded-md hover:bg-gary-800"
                             >
                                 Add to Cart
                             </button>

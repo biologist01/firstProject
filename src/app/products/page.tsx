@@ -33,7 +33,7 @@ const ProductsPage = () => {
     };
 
     return (
-        <div className="bg-gray-400 min-h-screen py-12">
+        <div className=" min-h-screen py-12">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h1 className="text-4xl font-bold text-center mb-8 text-white">Our Products</h1>
                 {!data ? (
@@ -43,7 +43,7 @@ const ProductsPage = () => {
                 ) : (
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         {data.map((product) => (
-                            <div key={product.id} className="bg-gray-400 p-6 rounded-lg shadow-md">
+                            <div key={product.id} className="p-6 rounded-lg shadow-md">
                                 <Image
                                     src={product.image}
                                     alt={product.title}
@@ -55,7 +55,7 @@ const ProductsPage = () => {
                                 <p className="text-white mb-4">${product.price.toFixed(2)}</p>
                                 <button
                                     onClick={() => viewSingleProduct(product.id)}
-                                    className="bg-gray-900 text-white py-2 px-4 rounded-md hover:bg-gray-800"
+                                    className="bg-blue-900 text-white py-2 px-4 rounded-md hover:bg-blue-800"
                                 >
                                     View Product
                                 </button>

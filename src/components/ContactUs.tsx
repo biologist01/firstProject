@@ -1,14 +1,14 @@
 const ContactUs = () => {
     return (
-        <section className="bg-gray-400 py-12">
+        <section className=" py-12">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl font-extrabold text-white text-center py-3">Contact Us</h2>
+                <h2 className="text-3xl font-extrabold text-blue-900 text-center py-3">Contact Us</h2>
                 
 
-                    <div className="bg-black p-6 rounded-lg shadow-md">
+                    <div className=" p-6 rounded-lg shadow-md bg-blue-50">
                         <form className="mt-6 space-y-4">
                             <div>
-                                <label htmlFor="name" className="block text-sm font-medium text-white">
+                                <label htmlFor="name" className="block text-sm font-medium text-grey-900">
                                     Your Name
                                 </label>
                                 <input
@@ -21,7 +21,7 @@ const ContactUs = () => {
                             </div>
 
                             <div>
-                                <label htmlFor="email" className="block text-sm font-medium text-white">
+                                <label htmlFor="email" className="block text-sm font-medium text-grey-900">
                                     Your Email
                                 </label>
                                 <input
@@ -34,7 +34,7 @@ const ContactUs = () => {
                             </div>
 
                             <div>
-                                <label htmlFor="message" className="block text-sm font-medium text-white">
+                                <label htmlFor="message" className="block text-sm font-medium text-grey-900">
                                     Your Message
                                 </label>
                                 <textarea
@@ -49,7 +49,7 @@ const ContactUs = () => {
                             <div>
                                 <button
                                     type="submit"
-                                    className="w-full bg-gray-400 text-white py-2 px-4 rounded-md shadow-md hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50"
+                                    className="w-full bg-blue-900 text-white py-2 px-4 rounded-md shadow-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50"
                                 >
                                     Send Message
                                 </button>
